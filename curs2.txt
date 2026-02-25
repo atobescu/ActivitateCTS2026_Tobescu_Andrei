@@ -1,0 +1,66 @@
+curs 2 CTS:
+
+omul uman retine 7 chestii simultan (+-2)
+
+clean code: chiar daca iti ia mai mult la inceput, pe termen lung iesi mai bine
+
+
+principii:
+-DRY: do not repeat yourself: dureaza mai putin sa modifici (ex: functii); intrebare: oare incalc principiul?
+-KISS: keep it stupid simple: sa poata fi inteles si de o ratusca de plastic (rubber duck programmining); rezolvi probleme complexe, mai rapid; usor de intretinut (modificat/extins)
+-YAGNI: you ain't gonna need it: faci doar ce ai nevoie
+
+-SOLID: o intreaga categorie:
+	-SRP (single responsability): o clasa/metoda/functie face un singur lucru, nu mai multe; merge cu try catch intr-o functie; la clase grija la motivele pentru care trebuie sa modifici clasa (daca are arie administrativa, contabila, academica) => faci 3 clase diferite in clasa mare (clasele sunt mai mult functionalitati)
+	-OP(Open-close): clasele trb sa fie deschise pentru extensii si inchise pentru modificari; ex: cand faci atribute private fara getteri si stii ca o sa i folosesti; sau ex: cand faci o clasa final (nu mai mosteneste)
+	-Liskov substitution principle (Design by contract): daca facem o mostenire de genul: dreptunghi -> patrat, daca faci set latura in patrat, nu mai poti dface referinta ca patratul e dreptunghi
+	-interface seggregation principle: mai multe interfete specializate sunt mult mai bune decat o interfata care are metode diverse; gasesti principii pentru care sa le imparti
+	-CEL MAI IMPORTANT: Dependency Inversion: atunci cand implementezi cod, sa nu depinzi direct de clase concrete (o sa ai mai multe clase) => incearca ca implementarila sa depinda de interfete/clase abstracte (ultimul nivel), nu de clasele de sub; ex: nu liste de studenti (sunt mai multe feluri), ci liste de cursanti
+
+
+Conventii de nume:
+-UpperCamelCase (Pascal)
+-lowerCamelCase
+-System Hungarian Notation: in numele variabilei punem si tipul variabilei - in PHP: ca sa stii ca variabila e intreaga, pui i in nume; ex: in C#, txt; string = sz
+-Apps Hungarian Notation: prefixe pentru module; atributele au un "m" in fata, sau parametrii cu "p"
+
+numele variabilei: why it exists?,what in does?,how it does it?
+
+
+
+
+Denumiri clase:
+-nu folosim plural, folosim un substantiv
+-grija la SRP (exemplu: clasa Utils)
+
+
+Denumiri metode:
+-descrie ce va face
+-verbe
+-daca e mai complicat, faci o metoda cu alte metode mai specifice
+-daca contine "si" sau "ori", imparte metoda
+-nu folosim abrevieri: sa nu ai clz in loc de calculeaza
+
+Denumiri variabile
+-nu e indicat sa ai variabile care contin cod din alt limbaj (SQL, CSS, etc): erori diverse la cum scrii variabile, nu e bine pt altii
+-variabile boleene: intrebari cu raspunsul sa fie valoarea, mereu pozitive
+-variabile complementare-numele trb sa fie simetrice
+
+
+Reguli:
+-variabilele pe linii diferite
+-blocurile de cod incep si se termina cu {} -> chiar daca avem o singura instructiune: daca mai vrei sa adaugi ceva
+-indentarea: maxim 3 niveluri de indentare: daca nu, functii separate
+-intre headerul functiei si acolada trb un spatiu
+-acolada de inchidere sa fie singura pe linie (exceptie if-else sau try-catch)
+-metodele sunt separate printr-o linie goala: sa definesti clar unde se termina
+-parametrii separati prin virgula si spatiu: ca sa stii cati sunt
+-reguli in structuri conditionate:
+	-sa nu mai compari bool cu true/false, nu eEgal==true
+	-nu fiti negativisti
+-folositi operatorul ternar ori de cate ori e posibil a:b?c, doar daca e simpla expresia logica
+-nu compara direct cu stringuri, foloseste enum
+-constantele le denumesti la inceputul claselor
+
+
+
