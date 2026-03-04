@@ -1,0 +1,7 @@
+-am rezolvat SRP din clasa Utils: am facut o interfata loaders si clase care o implementeaza
+
+
+-e scris acelasi cod in mai multe locuri
+-nu am apucat sa fac in clasa: rezolvat DRY din clasa abstracta Aplicant si clasele care o extind
+=> ?transformam interfata in clasa abstracta; modificam si loaders?
+
