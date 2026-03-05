@@ -1,7 +1,7 @@
-package clase.file_management;
+package ase_cts.clase.file_management;
 
-import clase.Aplicant;
-import clase.Student;
+import ase_cts.clase.Aplicant;
+import ase_cts.clase.Student;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -25,9 +25,9 @@ public class StudentReader implements IReaders{
             String[] vect = new String[5];
             for (int i = 0; i < nr; i++)
                 vect[i] = input.next();
-            int an_studii = input.nextInt();
+            int anStudii = input.nextInt();
             String facultate = (input.next()).toString();
-            Student s = new Student(nume, prenume, varsta, punctaj, nr, vect, facultate, an_studii);
+            Student s = new Student(nume, prenume, varsta, punctaj, nr, vect, facultate, anStudii);
             studenti.add(s);
         }
         input.close();

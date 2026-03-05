@@ -1,15 +1,4 @@
-package clase.file_management;
-
-import clase.Angajat;
-import clase.Elev;
-import clase.Student;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+package ase_cts.clase.file_management;
 
 public class Utils {
 

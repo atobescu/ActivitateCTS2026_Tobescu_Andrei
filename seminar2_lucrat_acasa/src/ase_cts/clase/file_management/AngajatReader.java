@@ -1,7 +1,7 @@
-package clase.file_management;
+package ase_cts.clase.file_management;
 
-import clase.Angajat;
-import clase.Aplicant;
+import ase_cts.clase.Angajat;
+import ase_cts.clase.Aplicant;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -22,6 +22,7 @@ public class AngajatReader implements IReaders{
             int varsta = input2.nextInt();
             int punctaj = input2.nextInt();
             int nr = input2.nextInt();
+            //nu e bine aici, folosim 5?
             String[] vect = new String[5];
             for (int i = 0; i < nr; i++)
                 vect[i] = input2.next();
