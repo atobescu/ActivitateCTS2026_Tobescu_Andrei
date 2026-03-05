@@ -1,15 +1,10 @@
-package main;
+package ase_cts.main;
 
-import clase.Angajat;
-import clase.Aplicant;
-import clase.file_management.AngajatReader;
-import clase.file_management.Utils;
+import ase_cts.clase.Aplicant;
+import ase_cts.clase.file_management.AngajatReader;
 
 import java.io.FileNotFoundException;
 import java.util.List;
-
-
-//rezolv: single responsability din clasa Utils
 
 
 public class Program {
@@ -23,8 +18,11 @@ public class Program {
 
 			for(Aplicant angajat:listaAngajati)
 				System.out.println(angajat.toString());
+				//aici afisam finantarea pentru fiecare angajat
+				//afisam statutul pentru fiecare angajat
+
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
 		}
 	}

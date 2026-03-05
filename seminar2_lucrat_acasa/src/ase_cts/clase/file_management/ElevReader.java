@@ -1,8 +1,7 @@
-package clase.file_management;
+package ase_cts.clase.file_management;
 
-import clase.Aplicant;
-import clase.Elev;
-import clase.Student;
+import ase_cts.clase.Aplicant;
+import ase_cts.clase.Elev;
 
 import java.io.File;
 import java.io.FileNotFoundException;

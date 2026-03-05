@@ -1,0 +1,28 @@
+terminam partea de clean code:
+
+un pachet in src, dupa faci cate vrei
+
+-dry
+-single responsability
+-liscow: in clasa abstracta trebuie declarata functia: afisareFinantare si dupa modifici la tot ce implementeaza
+-open close
+
+-trebuie sa pui camel case
+
+
+-incalcam la to string, do not repeat yourself: faci override la aplicant, folosind string builder (la setari) - folosesti pentru mai putine obiecte create
+-dupa, la fiecare clasa care o implementeaza, faci ovveride la to_string tot cu string builder si adaugi asta: sb.append(super.toString());
+
+-functia status din aplicant: numele trebuia sa fie afisare + 80 e hardcodat + DRY
+
+-stergem getterii pe care nu ii folosim
+
+
+
+
+-to do: afisam finantarea in main pentru ca am scris-o
+
+-to do: in readere alocam pentru fiecare vector spatiu pentru 5 proiecte
+
+-to do afisam statutul
+
