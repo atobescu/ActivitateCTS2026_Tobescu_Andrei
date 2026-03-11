@@ -17,12 +17,9 @@ un pachet in src, dupa faci cate vrei
 
 -stergem getterii pe care nu ii folosim
 
+-afisam finantarea in main pentru ca am scris-o
 
+-in readere alocam pentru fiecare vector spatiu pentru 5 proiecte
 
-
--to do: afisam finantarea in main pentru ca am scris-o
-
--to do: in readere alocam pentru fiecare vector spatiu pentru 5 proiecte
-
--to do afisam statutul
+-afisam statutul
 

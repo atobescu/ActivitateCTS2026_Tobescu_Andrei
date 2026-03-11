@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class AngajatReader implements IReaders{
+public class AngajatReader extends Readers {
     @Override
     public List<Aplicant> readAplicanti(String file) throws FileNotFoundException {
         Scanner input2 = new Scanner(new File(file));
@@ -17,19 +17,14 @@ public class AngajatReader implements IReaders{
         List<Aplicant> angajati = new ArrayList<Aplicant>();
 
         while (input2.hasNext()) {
-            String nume = input2.next();
-            String prenume = input2.next();
-            int varsta = input2.nextInt();
-            int punctaj = input2.nextInt();
-            int nr = input2.nextInt();
-            //nu e bine aici, folosim 5?
-            String[] vect = new String[5];
-            for (int i = 0; i < nr; i++)
-                vect[i] = input2.next();
+            Angajat angajat = new Angajat();
+            super.readAplicant(input2, angajat);
+
             int salariu = input2.nextInt();
+            angajat.setSalariu(salariu);
             String ocupatie = input2.next();
-            Angajat a = new Angajat(nume, prenume, varsta, punctaj, nr, vect, salariu, ocupatie);
-            angajati.add(a);
+            angajat.setOcupatie(ocupatie);
+            angajati.add(angajat);
         }
         input2.close();
         return angajati;

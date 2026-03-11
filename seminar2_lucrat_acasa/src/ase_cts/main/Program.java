@@ -16,11 +16,13 @@ public class Program {
 		try {
 			listaAngajati = angajatReader.readAplicanti("angajati.txt");
 
-			for(Aplicant angajat:listaAngajati)
+			for(Aplicant angajat : listaAngajati){
 				System.out.println(angajat.toString());
 				//aici afisam finantarea pentru fiecare angajat
+				angajat.afisareFinantare();
 				//afisam statutul pentru fiecare angajat
-
+				angajat.AfiseazaStatut();
+			}
 		} catch (FileNotFoundException e) {
 
 			e.printStackTrace();

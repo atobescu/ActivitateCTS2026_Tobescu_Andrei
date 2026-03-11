@@ -23,24 +23,19 @@ public class Elev extends Aplicant{
 	}
 
 
-	//de facut: private static Double sumaFinantare;
+	private static Double sumaFinantare = 10.7;
 	@Override
 	public void afisareFinantare() {
-
+		System.out.println("Elevul "+getNume()+" "+getPrenume()+" primeste" +Elev.sumaFinantare+ " Euro/zi in proiect.");
 	}
 
-	public Elev(String nume, String prenume, int varsta, int punctaj,
-			int nr_proiecte, String[] denumireProiect, int clasa, String tutore) {
-		super(nume,prenume,varsta,punctaj,nr_proiecte,denumireProiect);
+
+	public void setClasa(int clasa) {
 		this.clasa = clasa;
+	}
+
+	public void setTutore(String tutore) {
 		this.tutore = tutore;
 	}
 
-
-	public int finantare() {
-		int s=30;
-		System.out.println("Angajatul "+getNume()+" "+getPrenume()+" primeste"+s+" Euro/zi in proiect.");
-		return s;
-	}
-	
 }
