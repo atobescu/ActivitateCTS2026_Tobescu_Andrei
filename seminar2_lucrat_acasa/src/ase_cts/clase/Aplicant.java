@@ -27,9 +27,6 @@ public abstract class Aplicant {
         this.prenume = prenume;
     }
 
-    public int getVarsta() {
-        return varsta;
-    }
 
     public void setVarsta(int varsta) {
         this.varsta = varsta;
@@ -44,32 +41,23 @@ public abstract class Aplicant {
 //            System.out.println("Aplicantul " + nume + " " + prenume + " nu a fost acceptat.");
 //    }
 
-    private static Integer punctajMinim;
+    private static Integer punctajMinim = 90;
 
     public static Integer getPunctajMinim() {
         return punctajMinim;
     }
 
-    public static void setPunctajMinim(Integer punctajMinim) {
-        Aplicant.punctajMinim = punctajMinim;
-    }
-
     public void AfiseazaStatut() {
-        //asa: System.out.println("Aplicantul " + nume + " " + prenume + ((punctaj > Aplicant.getPunctajMinim())?" a fost acceptat.": " nu a fost acceptat."));
-        //si mai bine:
-        //System.out.println("Aplicantul " + nume + " " + prenume + ((punctaj > Aplicant.getPunctajMinim())?" ": " nu ") + "a fost acceptat.");
-        //dar e prea lunga linia => facem cu string builder
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("Aplicantul ");
         stringBuilder.append(this.nume).append(this.prenume);
         stringBuilder.append((punctaj > Aplicant.getPunctajMinim())?" ": " nu ");
         stringBuilder.append("a fost acceptat.");
+        System.out.println(stringBuilder.toString());
     }
 
 
-    public int getPunctaj() {
-        return punctaj;
-    }
+
 
     public void setPunctaj(int punctaj) {
         this.punctaj = punctaj;
@@ -91,13 +79,7 @@ public abstract class Aplicant {
         this.denumireProiect = denumireProiect;
     }
 
-    public int getNrProiecte() {
-        return nrProiecte;
-    }
 
-    public void setNrProiecte(int nrProiecte) {
-        this.nrProiecte = nrProiecte;
-    }
 
     public abstract void afisareFinantare();
 

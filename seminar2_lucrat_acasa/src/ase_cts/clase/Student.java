@@ -21,16 +21,12 @@ public class Student extends Aplicant {
     }
 
     //de facut: private static Double sumaFinantare;
+    private static Double sumaFinantare = 25.5;
     @Override
     public void afisareFinantare() {
-
+        System.out.println("Studentul " + getNume() + " " + getPrenume() + " primeste" + Student.sumaFinantare + " Euro/zi in proiect.");
     }
 
-    public Student(String nume, String prenume, int varsta, int punctaj, int nr_proiecte, String[] denumireProiect, String facultate, int an_studii) {
-        super(nume, prenume, varsta, punctaj, nr_proiecte, denumireProiect);
-        this.facultate = facultate;
-        this.anStudii = an_studii;
-    }
 
     @Override
     public String toString() {
@@ -42,10 +38,8 @@ public class Student extends Aplicant {
         return sb.toString();
     }
 
-    public int finantare() {
-        int s = 20;
-        System.out.println("Studentul " + getNume() + " " + getPrenume() + " primeste" + s + " Euro/zi in proiect.");
-        return s;
+    public void setFacultate(String facultate) {
+        this.facultate = facultate;
     }
 
 }

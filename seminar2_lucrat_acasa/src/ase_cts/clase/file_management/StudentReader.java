@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class StudentReader implements IReaders{
+public class StudentReader extends Readers {
     @Override
     public List<Aplicant> readAplicanti(String file) throws FileNotFoundException {
         Scanner input = new Scanner(new File(file));
@@ -17,18 +17,14 @@ public class StudentReader implements IReaders{
         List<Aplicant> studenti = new ArrayList<Aplicant>();
 
         while (input.hasNext()) {
-            String nume = input.next();
-            String prenume = (input.next()).toString();
-            int varsta = Integer.valueOf(input.nextInt());
-            int punctaj = Integer.valueOf(input.nextInt());
-            int nr = Integer.valueOf(input.nextInt());
-            String[] vect = new String[5];
-            for (int i = 0; i < nr; i++)
-                vect[i] = input.next();
+            Student student = new Student();
+            super.readAplicant(input, student);
+
             int anStudii = input.nextInt();
+            student.setAnStudii(anStudii);
             String facultate = (input.next()).toString();
-            Student s = new Student(nume, prenume, varsta, punctaj, nr, vect, facultate, anStudii);
-            studenti.add(s);
+            student.setFacultate(facultate);
+            studenti.add(student);
         }
         input.close();
         return studenti;
