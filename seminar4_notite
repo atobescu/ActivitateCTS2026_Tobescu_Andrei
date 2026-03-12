@@ -1,0 +1,10 @@
+-sa avem la test diagramele printate
+-primesti cerinta simiara cu ce e pe online ase
+-primesti si cod sursa cu o interfata (fara sa modifici nimic - doar package declaration)
+
+
+-facem un hotel singleton
+-facem un simple factory cu stb
+
+-to do: in main experimente
+-to do: sa faci singleton pe fabrica mijloc de transport (sa ai doar o instanta): in modului simple_factory_si_singleton

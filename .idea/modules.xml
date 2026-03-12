@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/factory_prototype/factory_prototype.iml" filepath="$PROJECT_DIR$/factory_prototype/factory_prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/modul_test/modul_test.iml" filepath="$PROJECT_DIR$/modul_test/modul_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar.iml" filepath="$PROJECT_DIR$/seminar.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar1_lucrat_acasa/seminar1_lucrat_acasa.iml" filepath="$PROJECT_DIR$/seminar1_lucrat_acasa/seminar1_lucrat_acasa.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar1_recapitulare/seminar1_recapitulare.iml" filepath="$PROJECT_DIR$/seminar1_recapitulare/seminar1_recapitulare.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar2/seminar2.iml" filepath="$PROJECT_DIR$/seminar2/seminar2.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar2_lucrat_acasa/seminar2_lucrat_acasa.iml" filepath="$PROJECT_DIR$/seminar2_lucrat_acasa/seminar2_lucrat_acasa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple_factory/simple_factory.iml" filepath="$PROJECT_DIR$/simple_factory/simple_factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple_factory_si_singleton/simple_factory_si_singleton.iml" filepath="$PROJECT_DIR$/simple_factory_si_singleton/simple_factory_si_singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/singleton/singleton.iml" filepath="$PROJECT_DIR$/singleton/singleton.iml" />
     </modules>
   </component>
 </project>
