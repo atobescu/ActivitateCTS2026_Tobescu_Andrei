@@ -1,0 +1,54 @@
+==========
+builder:
+(sunt mai multe versiuni, noi facem 3 acceptate, nu conteaza pe care o alegi, cea mai folosita este cea cu innerclass - a 3 a)
+(a doua varianta incalca DRY)
+(setteri din builder sa fie protected => innerclass)
+
+
+!!!!!prima varianta:
+-ex: string builder
+-iti creezi obiectul pas cu pas
+-se foloseste cand ai foarte multe atribute si vrei sa nu aloci un obiect full din prima
+-isi creeaza obiectul si isi seteaza toate valorile cu valorile implicite si apoi le modifica
+-obiectele sunt finale (nu le mai modifici dupa)
+-setterii returneaza obiectul
+-ex: "In cazul in care pacientul nu alege aceste facilitați extra,in cadrul aplicației sunt setate cu false"
+
+la seminar - builder (o clasa builder InternareBuilder, o clasa abstracta InternareBuilderAbstract, -):
+-seterii din Builder returneaza InternareBuilder
+
+
+-to do: in main builderul cu optiuni pe true
+-to do: verificat daca e ok prima varianta a bulderului
+
+*directorul reprezinta familia de unde gasesti builderii, nu l-am facut la seminar inca
+
+
+
+!!!!!a doua varianta (alternativa):
+-la fel, doar ca nu mai ai instanta in internareBuilderAbstract
+-poti avea un builder in care ai atribute setate custom (de exemplu sa ai mereu mic dejun inclus)
+-builderul este un fel de matrita
+-nu ai nevoie de setteri in clasa concreta
+
+-incalca DRY (am atribute in 2 clase)
+
+-to do: sa fac de la 0 builderul alternativ (interfata din varianta 1)
+
+-to do: sa fac o alta aplicatie cu director
+
+
+
+!!!!!a treia varianta (este varianta alternativa, dar cu interfata speciala)
+
+
+-to do: sa fac de la 0 builderul alternativ (interfata speciala)
+
+
+
+==========
+prototype:
+-cand vrem sa evitam apelul constructorului (cu parametrii)
+-punem la dispozitie o modalitate sa clonam obiectele (ca sa eviti constructorul principal)
+
+
