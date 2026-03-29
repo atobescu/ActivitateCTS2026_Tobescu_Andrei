@@ -3,6 +3,7 @@ package ase.cts.main;
 import ase.cts.stb.simplefactory.MijlocTransportFactory;
 import ase.cts.stb.simplefactory.MijlocTransportFactoryAbs;
 import ase.cts.stb.simplefactory.TipMijlocTransport;
+import ase.cts.stb.simplefactory.clase.Autobuz;
 import ase.cts.stb.simplefactory.clase.IMijlocTransport;
 import ase.cts.stb.simplefactory.claseabs.MijlocTransport;
 
@@ -16,5 +17,17 @@ public class Main {
         MijlocTransportFactoryAbs factoryAbs = new MijlocTransportFactoryAbs();
         MijlocTransport troleibuz = factoryAbs.creeazaMijlocTransport(TipMijlocTransport.Troleibuz);
         troleibuz.descriere();
+
+        //problema 2 (clone-ul este in clasa abstracta;
+        // nu este un prototype clasic, metoda clone returneaza interfata care este implementata de obiecte
+        // am facut asta, ca sa putem face clone la toate tipurile de mijloace de transport)
+        Autobuz autobuz = new Autobuz();
+        autobuz.setMarca("Mercedes");
+        System.out.println(autobuz.getMarca());
+        Autobuz autobuz2 = autobuz.copiaza();
+        autobuz.setMarca("Alta marca");
+        System.out.println(autobuz2.getMarca());
+
+
     }
 }
