@@ -31,17 +31,28 @@ public class Main {
         System.out.println(autobuz2.getMarca());
 
         //problema 3:
-        AutobuzLinieBuilder builder = new AutobuzLinieBuilder();
+//        AutobuzLinieBuilder builder = new AutobuzLinieBuilder();
+//        AutobuzLinie autobuzLinie = builder.build();
+//        autobuzLinie.setTextDerulator("Hello world");
+//        System.out.println(autobuzLinie.toString());
+//        //practic, fiecare setModel/orice setter, modifica cum creeaza builderul obiectele
+//        AutobuzLinie autobuzLinie2 = builder.setModel("Mercedes").build();
+//        System.out.println(autobuzLinie2.toString());
+//        AutobuzLinieBuilder builder2 = new AutobuzLinieBuilder();
+//        AutobuzLinie autobuzLinie3 = builder2.build();
+//        System.out.println(autobuzLinie3.toString());
+        //problema 3 cu singleton:
+        AutobuzLinieBuilder builder = AutobuzLinieBuilder.getInstanta();
         AutobuzLinie autobuzLinie = builder.build();
         autobuzLinie.setTextDerulator("Hello world");
         System.out.println(autobuzLinie.toString());
         //practic, fiecare setModel/orice setter, modifica cum creeaza builderul obiectele
         AutobuzLinie autobuzLinie2 = builder.setModel("Mercedes").build();
         System.out.println(autobuzLinie2.toString());
-        AutobuzLinieBuilder builder2 = new AutobuzLinieBuilder();
+        AutobuzLinieBuilder builder2 = AutobuzLinieBuilder.getInstanta();
+        //acum ca am facut singleton, nu mai merge sa ai altfel de builder, trebuie sa il modific pe primul (unicul)
         AutobuzLinie autobuzLinie3 = builder2.build();
         System.out.println(autobuzLinie3.toString());
-
 
     }
 }

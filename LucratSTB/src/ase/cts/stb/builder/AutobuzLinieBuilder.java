@@ -8,7 +8,7 @@ public class AutobuzLinieBuilder implements Builder{
         return autobuzLinie;
     }
 
-    public AutobuzLinieBuilder() {
+    private AutobuzLinieBuilder() {
         autobuzLinie = new AutobuzLinie("-","Ion",Boolean.FALSE, Boolean.FALSE,"Buckle-up!");
     }
 
@@ -35,6 +35,16 @@ public class AutobuzLinieBuilder implements Builder{
     public AutobuzLinieBuilder setTextDerulator(String textDerulator){
         autobuzLinie.setTextDerulator(textDerulator);
         return this;
+    }
+
+    //+singleton:
+
+    private static AutobuzLinieBuilder instanta = null;
+    public static synchronized AutobuzLinieBuilder getInstanta(){
+        if(instanta == null){
+            instanta = new AutobuzLinieBuilder();
+        }
+        return instanta;
     }
 
 }
