@@ -2,6 +2,9 @@ package ase.cts.main;
 
 import ase.cts.builder.Rezervare;
 import ase.cts.builder.RezervareBuilder;
+import ase.cts.factory_method.clase.IFelMancare;
+import ase.cts.factory_method.fabrici.FabricaDesert;
+import ase.cts.factory_method.fabrici.TipuriDesert;
 import ase.cts.simple_factory.ISupa;
 import ase.cts.simple_factory.SupaFactory;
 import ase.cts.simple_factory.SupaLegume;
@@ -27,6 +30,12 @@ public class Main {
         System.out.println(rezervare1.toString());
         Rezervare rezervare2 = builder.setGenMuzica("Jazz").build();
         System.out.println(rezervare2.toString());
+
+
+        //ex 3:
+        FabricaDesert fabricaDesert = new FabricaDesert();
+        IFelMancare clatitaPleostita = fabricaDesert.creeazaFelMancare(TipuriDesert.Clatite);
+        clatitaPleostita.descriere();
 
 
 
