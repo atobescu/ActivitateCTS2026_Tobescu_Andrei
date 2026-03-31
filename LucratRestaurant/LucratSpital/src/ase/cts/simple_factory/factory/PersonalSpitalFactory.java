@@ -6,8 +6,8 @@ import ase.cts.simple_factory.clase.Medic;
 import ase.cts.simple_factory.clase.PersonalSpital;
 
 public class PersonalSpitalFactory {
-    public PersonalSpital creeaza(TipPersonalSpital tipPersonalSpital) throws Exception {
-        switch (tipPersonalSpital){
+    public PersonalSpital creeaza(TipPersonalMedical tipPersonalMedical) throws Exception {
+        switch (tipPersonalMedical){
             case Medic -> {
                 return new Medic();
             }

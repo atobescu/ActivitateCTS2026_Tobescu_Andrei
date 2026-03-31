@@ -2,9 +2,12 @@ package ase.cts.main;
 
 import ase.cts.builder.Pacient;
 import ase.cts.builder.PacientBuilder;
+import ase.cts.factory_method.factory.PersonalMedicalFactory;
+import ase.cts.factory_method.factory.PersonalNonMedicalFactory;
+import ase.cts.factory_method.factory.TipPersonalNonMedical;
 import ase.cts.simple_factory.clase.PersonalSpital;
 import ase.cts.simple_factory.factory.PersonalSpitalFactory;
-import ase.cts.simple_factory.factory.TipPersonalSpital;
+import ase.cts.simple_factory.factory.TipPersonalMedical;
 
 public class Main {
     public static void main(String[] args) throws Exception {
@@ -17,7 +20,14 @@ public class Main {
 
         //ex 2:
         PersonalSpitalFactory personalSpitalFactory = new PersonalSpitalFactory();
-        PersonalSpital medic1 = personalSpitalFactory.creeaza(TipPersonalSpital.Medic);
+        PersonalSpital medic1 = personalSpitalFactory.creeaza(TipPersonalMedical.Medic);
         medic1.descriere();
+
+        //ex3:
+        PersonalMedicalFactory personalMedicalFactory = new PersonalMedicalFactory();
+        PersonalSpital asistent1 = personalMedicalFactory.construieste(TipPersonalMedical.Asistent);
+        asistent1.descriere();
+        PersonalSpital secretar1 = new PersonalNonMedicalFactory().construieste(TipPersonalNonMedical.Secretar);
+        secretar1.descriere();
     }
 }
