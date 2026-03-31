@@ -5,9 +5,14 @@ import ase.cts.builder.PacientBuilder;
 import ase.cts.factory_method.factory.PersonalMedicalFactory;
 import ase.cts.factory_method.factory.PersonalNonMedicalFactory;
 import ase.cts.factory_method.factory.TipPersonalNonMedical;
+import ase.cts.prototype.PrototypeReteta;
+import ase.cts.prototype.Reteta;
 import ase.cts.simple_factory.clase.PersonalSpital;
 import ase.cts.simple_factory.factory.PersonalSpitalFactory;
 import ase.cts.simple_factory.factory.TipPersonalMedical;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class Main {
     public static void main(String[] args) throws Exception {
@@ -29,5 +34,14 @@ public class Main {
         asistent1.descriere();
         PersonalSpital secretar1 = new PersonalNonMedicalFactory().construieste(TipPersonalNonMedical.Secretar);
         secretar1.descriere();
+
+        //ex4:
+        Map<Double, String> proportii = new HashMap<>();
+        proportii.put(10.1,"Lala");
+        proportii.put(10.12,"Lala12");
+        Reteta reteta1 = new Reteta(10.1,10.,5.,proportii);
+        System.out.println(reteta1.toString());
+        PrototypeReteta reteta2 = reteta1.cloneaza();
+        System.out.println(reteta2.toString());
     }
 }
