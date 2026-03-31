@@ -5,11 +5,15 @@ import ase.cts.builder.RezervareBuilder;
 import ase.cts.factory_method.clase.IFelMancare;
 import ase.cts.factory_method.fabrici.FabricaDesert;
 import ase.cts.factory_method.fabrici.TipuriDesert;
+import ase.cts.prototype.Cont;
 import ase.cts.simple_factory.ISupa;
 import ase.cts.simple_factory.SupaFactory;
 import ase.cts.simple_factory.SupaLegume;
 import ase.cts.simple_factory.TipuriDeSupa;
 import ase.cts.simple_factory_clasa_abs.Supa;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws Exception {
@@ -37,6 +41,16 @@ public class Main {
         IFelMancare clatitaPleostita = fabricaDesert.creeazaFelMancare(TipuriDesert.Clatite);
         clatitaPleostita.descriere();
 
+
+        //ex 4:
+        List<String> listaPreferinte = new ArrayList<>();
+        listaPreferinte.add("Fara gluten");
+        listaPreferinte.add("Vegetarian");
+        listaPreferinte.add("Fara alcool");
+        Cont cont = new Cont("Popescu", 30, listaPreferinte);
+        System.out.println(cont.toString());
+        Cont cont2 = cont.clone();
+        System.out.println(cont2.toString());
 
 
     }
