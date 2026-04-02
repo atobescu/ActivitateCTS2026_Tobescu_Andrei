@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/LucratRestaurant/LucratRestaurant.iml" filepath="$PROJECT_DIR$/LucratRestaurant/LucratRestaurant.iml" />
       <module fileurl="file://$PROJECT_DIR$/LucratSTB/LucratSTB.iml" filepath="$PROJECT_DIR$/LucratSTB/LucratSTB.iml" />
       <module fileurl="file://$PROJECT_DIR$/LucratRestaurant/LucratSpital/LucratSpital.iml" filepath="$PROJECT_DIR$/LucratRestaurant/LucratSpital/LucratSpital.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LucratTest1/LucratTest1.iml" filepath="$PROJECT_DIR$/LucratTest1/LucratTest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LucratTest1V2/LucratTest1V2.iml" filepath="$PROJECT_DIR$/LucratTest1V2/LucratTest1V2.iml" />
       <module fileurl="file://$PROJECT_DIR$/PrototypeAgentie/PrototypeAgentie.iml" filepath="$PROJECT_DIR$/PrototypeAgentie/PrototypeAgentie.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleFactoryAgentie/SimpleFactoryAgentie.iml" filepath="$PROJECT_DIR$/SimpleFactoryAgentie/SimpleFactoryAgentie.iml" />
       <module fileurl="file://$PROJECT_DIR$/SingletonAgentieTurism/SingletonAgentieTurism.iml" filepath="$PROJECT_DIR$/SingletonAgentieTurism/SingletonAgentieTurism.iml" />
