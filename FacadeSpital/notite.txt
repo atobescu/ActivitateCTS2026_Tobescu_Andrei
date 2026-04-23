@@ -4,3 +4,5 @@
 -am implementat un vector
 
 -problema 7 este decorator (se adauga mai multe functionalitati)
+
+-la test structurale si comportamentale, fara: state, memento, template
