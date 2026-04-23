@@ -1,0 +1,14 @@
+-problema 5 de la spital
+
+-la adapter, facem clasele initiale, dupa faci adapter (e un wrapper)
+-exista adapter de clase si adapter de obiecte
+-la adapter, posibil ca fiecare aplicatie sa aiba pachetul ei
+-la adapter, trebuie sa ne dam seama cine pe cine integreaza:
+"te două aplicații, astfel încât aplicația farmaciei să poate folosi obiectele de tip Medicament din aplicația spitalulu"
+=>aplicatia farmacie sa foloseasca medicamentul magazin(spital)
+
+-adaptorul este o alta clasa
+
+-adapter de clase: nu se poate face cand ai clase concrete (nu se poate face mostenire multipla), altfel adapter de obiecte
+
+-folosim String.contains()
