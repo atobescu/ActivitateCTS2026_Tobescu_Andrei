@@ -1,4 +1,4 @@
--problema 5 de la spital
+-problema 5 de la spital: adapter
 
 -la adapter, facem clasele initiale, dupa faci adapter (e un wrapper)
 -exista adapter de clase si adapter de obiecte
@@ -12,3 +12,5 @@
 -adapter de clase: nu se poate face cand ai clase concrete (nu se poate face mostenire multipla), altfel adapter de obiecte
 
 -folosim String.contains()
+
+
