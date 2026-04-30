@@ -6,4 +6,6 @@
 
 -problema 8 (proxy) - asta lucram, implica o conditie
 
--problema 9 (flywheel)
+-problema 9 (flywheight): optimizarea memoriei este de la faptul ca nu salvam detaliile liniei la toate autobuzele, le salvam separat
+
+-problema 10 (strategy)
