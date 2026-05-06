@@ -1,0 +1,23 @@
+-facem problema 12 STB (chain of responsability): inlocuieste switch;
+ai handleri abstract si handleri concreti, practic partea de switch o faci in main
+mai este ceva in clasa abstracta
+
+-facem problema de la noi sustinere examen(strategy): examenul poate fi sustinut in mai multe moduri (grila, scris pe foaie etc)
+strategy inlocuieste if-else
+mod sustinere examen = interfata
+proba grila, proba scrisa etc. = clasele concrete
+student = clasa concreta (Object din foaia printata)
+*pracctic, in main eu vreau sa setez pentru un student (obiect) mai multe moduri/strategii convcrete pe care le poate avea
+
+-facem problema 16 STB (command)
+ai:
+    un invoker (operator, etc, inp principiu om)
+    o clasa abstracta comanda
+    comenzi/comanda care mostenesc clasa abstracta
+    un receiver (chestia care face actiunea)
+
+
+la test (2 sau 3 patternuri):
+-structurale: toate
+-comportamentale: strategy, observer, chain, command
+
