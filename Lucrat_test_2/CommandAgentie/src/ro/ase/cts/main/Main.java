@@ -15,6 +15,10 @@ public class Main {
 
         operator.invoca(new ComandaRezervare(pachetTransport));
         operator.invoca(new ComandaVanzare(pachetCazare));
+        operator.arataIstoricComenzi();
+        operator.undo();
+        System.out.println("nou:");
+        operator.arataIstoricComenzi();
 
     }
 }
