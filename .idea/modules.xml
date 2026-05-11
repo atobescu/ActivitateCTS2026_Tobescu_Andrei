@@ -21,13 +21,14 @@
       <module fileurl="file://$PROJECT_DIR$/LucratRestaurant/LucratSpital/LucratSpital.iml" filepath="$PROJECT_DIR$/LucratRestaurant/LucratSpital/LucratSpital.iml" />
       <module fileurl="file://$PROJECT_DIR$/LucratTest1/LucratTest1.iml" filepath="$PROJECT_DIR$/LucratTest1/LucratTest1.iml" />
       <module fileurl="file://$PROJECT_DIR$/LucratTest1V2/LucratTest1V2.iml" filepath="$PROJECT_DIR$/LucratTest1V2/LucratTest1V2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lucrat_test_2/ObserverAgentie/ObserverAgentie.iml" filepath="$PROJECT_DIR$/Lucrat_test_2/ObserverAgentie/ObserverAgentie.iml" />
       <module fileurl="file://$PROJECT_DIR$/PrototypeAgentie/PrototypeAgentie.iml" filepath="$PROJECT_DIR$/PrototypeAgentie/PrototypeAgentie.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lucrat_test_2/ProxyAgentie/ProxyAgentie.iml" filepath="$PROJECT_DIR$/Lucrat_test_2/ProxyAgentie/ProxyAgentie.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProxySTB/ProxySTB.iml" filepath="$PROJECT_DIR$/ProxySTB/ProxySTB.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleFactoryAgentie/SimpleFactoryAgentie.iml" filepath="$PROJECT_DIR$/SimpleFactoryAgentie/SimpleFactoryAgentie.iml" />
       <module fileurl="file://$PROJECT_DIR$/SingletonAgentieTurism/SingletonAgentieTurism.iml" filepath="$PROJECT_DIR$/SingletonAgentieTurism/SingletonAgentieTurism.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpitalComposite/SpitalComposite.iml" filepath="$PROJECT_DIR$/SpitalComposite/SpitalComposite.iml" />
-      <module fileurl="file://$PROJECT_DIR$/StrategyAgentieTurism/StrategyAgentieTurism.iml" filepath="$PROJECT_DIR$/StrategyAgentieTurism/StrategyAgentieTurism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lucrat_test_2/StrategyAgentieTurism/StrategyAgentieTurism.iml" filepath="$PROJECT_DIR$/Lucrat_test_2/StrategyAgentieTurism/StrategyAgentieTurism.iml" />
       <module fileurl="file://$PROJECT_DIR$/StrategySustinereExamen/StrategySustinereExamen.iml" filepath="$PROJECT_DIR$/StrategySustinereExamen/StrategySustinereExamen.iml" />
       <module fileurl="file://$PROJECT_DIR$/builder_spital/builder_spital.iml" filepath="$PROJECT_DIR$/builder_spital/builder_spital.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_prototype/factory_prototype.iml" filepath="$PROJECT_DIR$/factory_prototype/factory_prototype.iml" />
