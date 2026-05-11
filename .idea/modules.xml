@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/AdapterSpital/AdapterSpital.iml" filepath="$PROJECT_DIR$/AdapterSpital/AdapterSpital.iml" />
       <module fileurl="file://$PROJECT_DIR$/BuilderAgentie/BuilderAgentie.iml" filepath="$PROJECT_DIR$/BuilderAgentie/BuilderAgentie.iml" />
       <module fileurl="file://$PROJECT_DIR$/ChainOfResponsabilitySTB/ChainOfResponsabilitySTB.iml" filepath="$PROJECT_DIR$/ChainOfResponsabilitySTB/ChainOfResponsabilitySTB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lucrat_test_2/CommandAgentie/CommandAgentie.iml" filepath="$PROJECT_DIR$/Lucrat_test_2/CommandAgentie/CommandAgentie.iml" />
       <module fileurl="file://$PROJECT_DIR$/CommandSTB/CommandSTB.iml" filepath="$PROJECT_DIR$/CommandSTB/CommandSTB.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lucrat_test_2/CompositeAgentie/CompositeAgentie.iml" filepath="$PROJECT_DIR$/Lucrat_test_2/CompositeAgentie/CompositeAgentie.iml" />
       <module fileurl="file://$PROJECT_DIR$/DecoratorRestaurant/DecoratorRestaurant.iml" filepath="$PROJECT_DIR$/DecoratorRestaurant/DecoratorRestaurant.iml" />
