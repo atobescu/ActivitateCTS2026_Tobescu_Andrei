@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Lucrat_test_2/AdapterClaseInchiriatMasini/AdapterClaseInchiriatMasini.iml" filepath="$PROJECT_DIR$/Lucrat_test_2/AdapterClaseInchiriatMasini/AdapterClaseInchiriatMasini.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lucrat_test_2/AdapterInchiriatMasini/AdapterObiecteInchiriatMasini.iml" filepath="$PROJECT_DIR$/Lucrat_test_2/AdapterInchiriatMasini/AdapterObiecteInchiriatMasini.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdapterRestaurant/AdapterRestaurant.iml" filepath="$PROJECT_DIR$/AdapterRestaurant/AdapterRestaurant.iml" />
       <module fileurl="file://$PROJECT_DIR$/AdapterSpital/AdapterSpital.iml" filepath="$PROJECT_DIR$/AdapterSpital/AdapterSpital.iml" />
       <module fileurl="file://$PROJECT_DIR$/BuilderAgentie/BuilderAgentie.iml" filepath="$PROJECT_DIR$/BuilderAgentie/BuilderAgentie.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lucrat_test_2/ChainAgentie/ChainAgentie.iml" filepath="$PROJECT_DIR$/Lucrat_test_2/ChainAgentie/ChainAgentie.iml" />

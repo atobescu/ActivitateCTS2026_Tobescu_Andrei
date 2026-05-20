@@ -13,7 +13,7 @@ public class Main {
         MasinaInchiriata masinaInchiriata = new MasinaInchiriata("BMW", 500.0);
         System.out.println(masinaInchiriata.getPretInchiriere());
 
-        //ucru cu adapter:
+        //lucru cu adapter:
         PachetInchiriereMasina pachetInchiriereMasina = new PachetInchiriereMasina(masinaInchiriata);
         pachetInchiriereMasina.getPret();
     }
