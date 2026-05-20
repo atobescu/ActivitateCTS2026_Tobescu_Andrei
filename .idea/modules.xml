@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/Lucrat_test_2/CompositeAgentie/CompositeAgentie.iml" filepath="$PROJECT_DIR$/Lucrat_test_2/CompositeAgentie/CompositeAgentie.iml" />
       <module fileurl="file://$PROJECT_DIR$/DecoratorRestaurant/DecoratorRestaurant.iml" filepath="$PROJECT_DIR$/DecoratorRestaurant/DecoratorRestaurant.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lucrat_test_2/DecoratorTurism/DecoratorTurism.iml" filepath="$PROJECT_DIR$/Lucrat_test_2/DecoratorTurism/DecoratorTurism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lucrat_test_2/FacadeRestaurant/FacadeRestaurant.iml" filepath="$PROJECT_DIR$/Lucrat_test_2/FacadeRestaurant/FacadeRestaurant.iml" />
       <module fileurl="file://$PROJECT_DIR$/FacadeSpital/FacadeSpital.iml" filepath="$PROJECT_DIR$/FacadeSpital/FacadeSpital.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lucrat_test_2/FacadeTurism/FacadeTurism.iml" filepath="$PROJECT_DIR$/Lucrat_test_2/FacadeTurism/FacadeTurism.iml" />
       <module fileurl="file://$PROJECT_DIR$/FactoryMethodAgentie/FactoryMethodAgentie.iml" filepath="$PROJECT_DIR$/FactoryMethodAgentie/FactoryMethodAgentie.iml" />
